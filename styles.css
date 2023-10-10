@@ -28,11 +28,7 @@ body {
 
 .background-img-container {
   height: 100%;
-
-  display: flex;
-  justify-content: center;
   flex: 35%;
-
   background-image: url("./images/background-image-leaf.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -44,7 +40,7 @@ body {
   height: 100px;
   display: flex;
   width: 100%;
-  margin: 50% 0;
+  margin: 45% 0;
   align-items: center;
 }
 
@@ -65,4 +61,29 @@ img.logo {
 
 .form-and-form-intro-container {
   flex: 65%;
+  margin: auto 0;
+}
+
+.form-intro {
+    margin: 0 auto 0 32px;
+}
+
+.form-intro p {
+    margin-bottom: 12px;
+}
+
+form button {
+    margin-left: 32px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 8px 12px;
+    background-color: #596d48;
+    color: white;
+    border-radius: 5px;
+}
+
+.login {
+    margin-left: 32px;
+
 }
