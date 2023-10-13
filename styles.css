@@ -45,6 +45,7 @@ body {
   width: 100%;
   margin: 45% 0;
   align-items: center;
+  position: relative;
 }
 
 img.logo {
@@ -60,6 +61,25 @@ img.logo {
   font-size: 5rem;
   color: white;
   margin-right: auto;
+}
+
+.image-attribution {
+  position: absolute;
+  bottom: 12px;
+  left: 20px;
+  margin-left: auto;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.image-attribution a {
+  color: white;
+}
+
+.image-attribution a:visited {
+  color: white;
+  text-decoration: none;
+  font-style: oblique;
 }
 
 .form-and-form-intro-container {
