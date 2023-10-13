@@ -26,3 +26,8 @@ The project allows you to practice various aspects of building a sign-up form, i
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+## Acknowledgments
+
+Leaf background image by ![Halie West](https://unsplash.com/photos/25xggax4bSA) on ![Unsplash](https://unsplash.com).
