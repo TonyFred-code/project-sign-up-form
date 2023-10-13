@@ -18,6 +18,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: #f3f4f6;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -70,20 +73,90 @@ img.logo {
 
 .form-intro p {
     margin-bottom: 12px;
+    font-weight: bold;
 }
 
+form p {
+  font-weight: bold;
+  /* padding: 12px 0; */
+}
+
+.form-content-header {
+  background-color: #fff;
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.1);
+  padding: 12px 32px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 12px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+}
+
+.label-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5px;
+}
+
+.label-input label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.09rem;
+}
+
+.label-input input {
+  border: 1.8px solid #e5e7eb;
+  height: 24px;
+  padding: 8px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.label-input input:focus {
+  border: 1.8px solid #7b9ff8;
+  outline: none;
+  box-shadow: 5px 3px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+#password:invalid, #confirm-password:invalid {
+  border: 1.8px solid red;
+}
+
+.wrong-match-msg {
+  color: red;
+  font-size: 0.8rem;
+  display: none;
+}
+
+
 form button {
-    margin-left: 32px;
+    margin: 24px 32px;
     outline: none;
     cursor: pointer;
     border: none;
-    padding: 8px 12px;
+    padding: 8px 16px;
     background-color: #596d48;
     color: white;
     border-radius: 5px;
+    font-weight: bold;
+    width: 200px;
 }
 
 .login {
     margin-left: 32px;
 
+}
+
+.login a {
+  text-decoration: none;
+  color: #596d48;
+}
+
+.login a:hover {
+  color: #3d532a;
 }

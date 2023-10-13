@@ -28,10 +28,44 @@
             <div class="form-content-header">
                 <p>Let's do this!</p>
 
-                <div class="row">
+                <div class="row first-last-name">
+                  <div class="label-input">
                     <label for="first-name">FIRST NAME</label>
-                    <input type="text" name="first-name" id="first-name">
+                    <input  required type="text" name="first-name" id="first-name">
+                  </div>
+
+                  <div class="label-input">
+                    <label for="last-name">LAST NAME</label>
+                    <input  required type="text" name="last-name" id="last-name">
+                  </div>
                 </div>
+
+                <div class="row email-phone-number">
+                  <div class="label-input">
+                    <label for="email">EMAIL</label>
+                    <input  required type="email" name="email" id="email">
+                  </div>
+
+                  <div class="label-input">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input  required type="tel" name="phone-number" id="phone-number">
+                  </div>
+              </div>
+
+              <div class="row password-confirm-password">
+                <div class="label-input">
+                  <label for="password">PASSWORD</label>
+                  <input  required type="password" name="password" id="password">
+                  <div class="wrong-match-msg">* Passwords do not match</div>
+                </div>
+
+                <div class="label-input">
+                  <label for="confirm-password">CONFIRM PASSWORD</label>
+                  <input  required type="password" name="confirm-password" id="confirm-password">
+                </div>
+            </div>
+
+
 
             </div>
             <div class="btn-container">
